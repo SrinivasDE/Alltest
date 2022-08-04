@@ -1,7 +1,6 @@
 import React from 'react';
 import MainContent from './MainContent';
 import './sideBar.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const SideBar = () => {
   return (
@@ -11,7 +10,7 @@ const SideBar = () => {
     
     <div className='sidebar' style={{display:'flex', flexWrap:'wrap'}}>
         <ul style={{flex:'20%'}}>
-            <li><FontAwesomeIcon icon="fa-solid fa-house" />Home</li>
+            <li>Home</li>
             <li>Menu Item</li>
             <li>Android</li>
             <li>Attachments</li>

@@ -3,6 +3,7 @@ import Footer from './components/Footer';
 import MainContent from './components/MainContent';
 import NavBar from './components/NavBar';
 import SideBar from './components/SideBar';
+import Nav from './comQ2/Nav';
 import FlexBox from './FlexBox';
 
 const App = () => {
@@ -10,13 +11,14 @@ const App = () => {
     <>
     {/* Question 1 */}
 
-      <NavBar/>
+      {/* <NavBar/>
       <SideBar/>
-      <Footer/>
+      <Footer/> */}
 
-      
+
     {/* Question 2 */}
 
+      <Nav/>
     </>
   )
 }

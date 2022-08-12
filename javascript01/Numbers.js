@@ -46,5 +46,33 @@ let y8 = -2/0;
 console.log(x8);
 console.log(y8, '\n');
 
+let x9 = 0xff;
+console.log("Hexadecimal :", x9);
+
+let x10 = 32;
+console.log("Decimals of 32",x10.toString(36));
+console.log(x10.toString(32));
+console.log(x10.toString(16));
+console.log(x10.toString(12));
+console.log(x10.toString(10));
+console.log(x10.toString(8));
+console.log(x10.toString(4));
+console.log(x10.toString(2), '\n');
+
+let x11 = 123;
+let y11 = new Number(x11);
+console.log(typeof x11);
+console.log(typeof y11);
+console.log(x11 == y11);
+console.log(x11 === y11, '\n');
+
+let x12 = new Number(500);
+let y12 = new Number(500);
+console.log("java script objects cannoot be compared :",x12 === y12);
+
+
+
+
+
 
 

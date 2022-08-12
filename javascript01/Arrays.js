@@ -169,3 +169,4 @@ console.log(findindex,'\n');
 
 const fruits11 = ["Banana", "Orange", "Apple", "Mango"];
 console.log(fruits11.includes('Mango'));
+
